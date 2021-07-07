@@ -3,12 +3,11 @@ Debemos lograr tomar un dato por 'ID'
 y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-	/* var nombreIngresado;
-	nombreIngresado=txtIdNombre.value;	alternative way
-	alert("ok"); */
+	var nombreIngresado;
+	var mensajeParaElUsusario;
 
-	let nombre;
-	nombre = document.getElementById("txtIdNombre").value
+	nombreIngresado = document.getElementById("txtIdNombre").value;
+	mensajeParaElUsusario = "El nombre ingresado es: " + nombreIngresado;
 
-	alert(nombre);
+	alert(mensajeParaElUsusario);
 }

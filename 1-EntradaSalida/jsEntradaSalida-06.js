@@ -16,7 +16,7 @@ function sumar()
 	alert("La suma es " + suma);
 
 
-	/* 	ALTERNATIVE WAY
+	/* 						ALTERNATIVE WAY
 
 	let num1;
 	let num2;
