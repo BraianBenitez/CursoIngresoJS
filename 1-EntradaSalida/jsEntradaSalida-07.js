@@ -8,31 +8,31 @@ ej.: "la Resta es 750"*/
 
 function sumar()
 {	
-	let num1;
-	let num2;
+	let primerNúmero;
+	let segundoNúmero;
 	let resultado;
 
-	num1 = parseInt(document.getElementById("txtIdNumeroUno").value);
-	num2 = parseInt(document.getElementById("txtIdNumeroDos").value);
+	primerNúmero = parseInt(document.getElementById("txtIdNumeroUno").value);
+	segundoNúmero = parseInt(document.getElementById("txtIdNumeroDos").value);
 
-	resultado = num1 + num2;
+	resultado = primerNúmero + segundoNúmero;
 	
 	alert("La suma es: " + resultado);
 }
 
 function restar()
 {
-	let num1;
-	let num2;
+	let primerNúmero;
+	let segundoNúmero;
 	let resultado;
 
-	num1 = document.getElementById("txtIdNumeroUno").value;
-	num2 = document.getElementById("txtIdNumeroDos").value;
+	primerNúmero = document.getElementById("txtIdNumeroUno").value;
+	segundoNúmero = document.getElementById("txtIdNumeroDos").value;
 
-	num1 = parseInt(num1);
-	num2 = parseInt(num2);
+	primerNúmero = parseInt(primerNúmero);
+	segundoNúmero = parseInt(segundoNúmero);
 
-	resultado = num1 - num2;
+	resultado = primerNúmero - segundoNúmero;
 
 	alert("La resta es: " + resultado);
 
@@ -40,25 +40,32 @@ function restar()
 
 function multiplicar()
 { 
-	let num_1 = parseInt(document.getElementById("txtIdNumeroUno").value);
-	let num_2 = parseInt(document.getElementById("txtIdNumeroDos").value);
-	let resultado = num_1 * num_2;
+	let primerNúmero = parseInt(document.getElementById("txtIdNumeroUno").value);
+	let segundoNúmero = parseInt(document.getElementById("txtIdNumeroDos").value);
+	let resultado = primerNúmero * segundoNúmero;
 
 	alert("La multiplicación es: " + resultado);
 }
 
 function dividir()
 {
-	let num_1 = document.getElementById("txtIdNumeroUno").value;
-	let num_2 = document.getElementById("txtIdNumeroDos").value;
+	let primerNúmero = document.getElementById("txtIdNumeroUno").value;
+	let segundoNúmero = document.getElementById("txtIdNumeroDos").value;
 	let resultado;
 
-	num_1 = parseFloat(num_1);
-	num_2 = parseFloat(num_2);
+	primerNúmero = parseFloat(primerNúmero);
+	segundoNúmero = parseFloat(segundoNúmero);
 
-	resultado = num_1 / num_2;
+	resultado = primerNúmero / segundoNúmero;
 
-	alert("El resultado de la división entre " + num_1 + " y " + num_2 + " es: " + resultado);
+	alert("El resultado de la división entre " + primerNúmero + " y " + segundoNúmero + " es: " + resultado);
 }
 
 /* 	NOTA : TODAS SON DISTINTAS FORMAS DE REALIZAR EL EJERCICIO. TENER EN CUENTA LA MÁS APROPIADA SEGÚN EL PROFESOR */
+
+/* NOTA 2(para quien lo lea): Entiendo que se debe realizar con el procedimiento de, por ejemplo, la
+función restar(con cada paso bien definido, y con la menor cantidad de operaciones
+por línea). Sólo que quise jugar un poco con las variables y ahora me da más pereza
+cambiar el código que escribir esto.
+Prometo no hacerlo en el parcial :(
+*/

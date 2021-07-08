@@ -33,3 +33,23 @@ function sumar()
 	alert("La suma es " + suma); 	*/
 }
 
+
+
+//	MANERA DEL PROFESOR
+
+
+/*
+	var primerNumero;
+	var segundoNumero;
+	var suma;
+
+	primerNumero = document.getElementById("txtIdNumeroUno").value;
+	primerNumero = parseInt(primerNumero);
+
+	segundoNumero = document.getElementById("txtIdNumeroUno").value;
+	segundoNumero = parseInt(segundoNumero);
+
+	suma = primerNumero + segundoNumero;
+
+	alert("La suma es: " + suma);
+*/
